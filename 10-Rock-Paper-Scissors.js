@@ -47,8 +47,7 @@ score.ties++;
 localStorage.setItem('score',(JSON.stringify(score)));
 document.querySelector('.js-result').innerHTML = `You ${result}.`;
 document.querySelector('.js-moves').innerHTML = ` You 
-<img src="${playerMove}-emoji.png" alt="" class="image-move">
-<img src="${computerMove}-emoji.png" alt="" class="image-move">
+<img src="${playerMove}-emoji.png" alt="" class="image-move"> <img src="${computerMove}-emoji.png" alt="" class="image-move">
 computer`;
 UpdateScoreElement();    
 }
